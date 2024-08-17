@@ -3,7 +3,7 @@ import Policy from '../../components/Policy/Policy'
 
 const Privacy = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <Policy />
     </div>
   )

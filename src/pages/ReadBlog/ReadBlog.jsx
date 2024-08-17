@@ -4,7 +4,7 @@ import BlogLorem from '../../components/BlogLorem/BlogLorem'
 
 const ReadBlog = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <ReadBlogComponent />
         <BlogLorem />
     </div>

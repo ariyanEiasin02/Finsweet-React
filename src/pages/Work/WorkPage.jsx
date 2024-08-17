@@ -5,7 +5,7 @@ import Build from '../../components/Bulid/Build'
 
 const WorkPage = () => {
   return (
-    <div>
+    <div className=''>
         <Portfolio />
         <MixItUpComponent />
         <Build />

@@ -1,4 +1,5 @@
 import React from 'react'
+import website from '../../assets/website.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 const Websites = () => {
     return (
@@ -7,11 +8,14 @@ const Websites = () => {
                 <div className="max-w-container mx-auto">
                     <div className="md:flex justify-between">
                         <div className="md:w-2/4">
-                            <div style={{ background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/src/assets/website.png) no-repeat center/cover" }} className="h-[450px] md:h-[600px]">
+                        <div className="relative h-[450px] md:h-[600px]">
+                            <img className='w-full h-full' src={website} alt="" />
+                            <div style={{ background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))" }} className="w-full h-full absolute top-0 left-0">
                                 <div className="px-4 md:px-0">
                                     <h2 className="pt-[70px] font-poppins font-bold text-white text-3xl md:text-5xl md:pl-[50px]">Building stellar <br /> websites for <br />early startups</h2>
                                     <p className="mt-[20px] font-poppins text-white font-light text-base md:pl-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqua ut enim.</p>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div className="md:w-2/4">

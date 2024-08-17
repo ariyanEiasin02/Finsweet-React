@@ -3,7 +3,7 @@ import { FaFacebookSquare,FaTwitter,FaInstagram,FaLinkedin } from "react-icons/f
 const Portfolio = () => {
     return (
         <div>
-            <section className='py-24 bg-[#F4F6FC] '>
+            <section className='py-36 bg-[#F4F6FC] '>
                 <div className="max-w-container mx-auto">
                     <div className="text-center px-4 md:px-0">
                         <span className='font-poppins font-medium text-[#282938] text-base'>What we created</span>

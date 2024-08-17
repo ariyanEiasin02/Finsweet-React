@@ -4,7 +4,7 @@ import OurBlog from '../../components/OurBlog/OurBlog'
 
 const BlogPages = () => {
   return (
-    <div>
+    <div className='pt-24'>
       <Environment />
       <OurBlog />
     </div>

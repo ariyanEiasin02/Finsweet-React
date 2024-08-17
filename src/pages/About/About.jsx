@@ -9,7 +9,7 @@ import BenefitsIcons from '../../components/BenefitsIcons/BenefitsIcons'
 
 const About = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <AboutBanner />
         <Focussed />
         <Process />

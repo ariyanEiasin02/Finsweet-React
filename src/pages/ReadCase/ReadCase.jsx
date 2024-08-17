@@ -5,7 +5,7 @@ import ReadAbout from '../../components/ReadAbout/ReadAbout'
 
 const ReadCase = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <ReadDesign />
         <ReadAbout />
         <Build />
