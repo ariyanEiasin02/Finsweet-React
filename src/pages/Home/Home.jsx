@@ -10,7 +10,7 @@ import Blog from '../../components/Blog/Blog'
 
 const Home = () => {
   return (
-    <div>
+    <div active="Home" className='md:py-0 pt-16'>
         <Banner></Banner>
         <Work></Work>
         <Porject></Porject>
