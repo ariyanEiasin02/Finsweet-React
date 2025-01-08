@@ -3,10 +3,11 @@ import blog from '../../assets/blog.png'
 import blogOne from '../../assets/blog01.png'
 import blogTwo from '../../assets/blog02.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Blog = () => {
     return (
         <div>
-            <section className='py-24'>
+            <section className='md:py-20 py-12'>
                 <div className="max-w-container mx-auto">
                     <div className="px-4 md:px-0">
                         <h2 className='font-poppins font-medium text-3xl text-black'>Our blog</h2>
@@ -18,7 +19,7 @@ const Blog = () => {
                                 <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
                                 <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <a className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" href="#">Read More <span><FaLongArrowAltRight className='inline-block' /></span></a>
+                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                             </div>
                         </div>
                         <div className="md:w-[32%] border border-[#D2D2D2] mt-8 rounded-lg">
@@ -27,7 +28,7 @@ const Blog = () => {
                                 <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
                                 <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <a className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" href="#">Read More <span><FaLongArrowAltRight className='inline-block' /></span></a>
+                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                             </div>
                         </div>
                         <div className="md:w-[32%] border border-[#D2D2D2] mt-8 rounded-lg">
@@ -36,7 +37,7 @@ const Blog = () => {
                                 <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
                                 <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <a className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" href="#">Read More <span><FaLongArrowAltRight className='inline-block' /></span></a>
+                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                             </div>
                         </div>
                     </div>

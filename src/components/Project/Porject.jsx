@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Porject = () => {
     return (
         <div>
-            <section className='py-24'>
+            <section className='md:py-20 py-12'>
                 <div className="max-w-container mx-auto">
                     <div className="flex justify-between px-4 md:px-0">
                         <div>
@@ -23,9 +23,9 @@ const Porject = () => {
                             <div className='relative group'>
                             <img className='w-full' src={projectOne} alt="" />
                             <div className="md:w-2/4 bg-project opacity-0 absolute top-0 left-0 group-hover:h-full h-0 group-hover:opacity-100 duration-500">
-                                <div className="md:mt-48 mt-8">
+                                <div className="md:mt-48 mt-8 cursor-pointer">
                                     <h2 className="font-poppins font-bold text-xl md:text-2xl text-white px-6">Workhub office Webflow Webflow Design</h2>
-                                    <p className="mt-[10px] font-poppins text-[#BBBBCB] font-light px-6 w-[90%] text-base">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                                    <p className="mt-[10px] font-poppins text-[#BBBBCB] font-normal px-6 md:w-[90%] text-base">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
                                     <div className="px-6 mt-4">
                                     <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="/portfolio">View Project <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                     </div>

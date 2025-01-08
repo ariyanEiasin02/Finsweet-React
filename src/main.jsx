@@ -23,15 +23,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BackTop/>
     <Routes>
         <Route exact path="/"  element={<Home />}/>
-        <Route exact path="/about"  element={<About />}/>
-        <Route exact path="/contact"  element={<Contact />}/>
-        <Route exact path="/pricing"  element={<Pricing />}/>
-        <Route exact path="/features"  element={<Features />}/>
-        <Route exact path="/portfolio"  element={<WorkPage />}/>
-        <Route exact path="/privacy"  element={<Privacy />}/>
-        <Route exact path="/workPage/readCase"  element={<ReadCase/>}/>
-        <Route exact path="/blog"  element={<BlogPages/>}/>
-        <Route exact path="/blog/ReadBlog"  element={<ReadBlog/>}/>
+        <Route exact path="Home/About"  element={<About />}/>
+        <Route exact path="Home/Contact"  element={<Contact />}/>
+        <Route exact path="Home/Pricing"  element={<Pricing />}/>
+        <Route exact path="Home/Features"  element={<Features />}/>
+        <Route exact path="Home/Portfolio"  element={<WorkPage />}/>
+        <Route exact path="Home/Privacy"  element={<Privacy />}/>
+        <Route exact path="Home/WorkPage/ReadCase"  element={<ReadCase/>}/>
+        <Route exact path="Home/Blog"  element={<BlogPages/>}/>
+        <Route exact path="Home/Blog/ReadBlog"  element={<ReadBlog/>}/>
       </Routes>
       <Footer/>
     </Router>
