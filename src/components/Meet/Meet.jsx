@@ -7,7 +7,7 @@ import { FaFacebookF,FaTwitter,FaLinkedinIn } from "react-icons/fa";
 const Meet = () => {
   return (
     <div>
-        <section className='md:py-24 py-12 bg-[#f4f6fc]'>
+        <section className='md:py-20 py-12 bg-[#f4f6fc]'>
             <div className="max-w-container mx-auto">
                <div className="flex justify-center">
                     <h2 className='font-poppins font-semibold text-[#282938] text-2xl md:text-4xl'>Meet our team</h2>

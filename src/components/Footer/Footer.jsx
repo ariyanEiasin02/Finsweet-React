@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
@@ -45,22 +46,22 @@ const Footer = () => {
                         <div className="px-4 md:px-0 mt-2 md:mt-0">
                             <ul className='flex md:gap-x-8 gap-x-4'>
                                 <li>
-                                    <a className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">Home</a>
+                                    <Link className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="/">Home</Link>
                                 </li>
                                 <li>
-                                    <a  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">About</a>
+                                    <Link  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="Home/About">About</Link>
                                 </li>
                                 <li>
-                                    <a  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">Features</a>
+                                    <Link  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="Home/Features">Features</Link>
                                 </li>
                                 <li>
-                                    <a  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">Pricing</a>
+                                    <Link  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="Home/Pricing">Pricing</Link>
                                 </li>
                                 <li>
-                                    <a  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">FAQ</a>
+                                    <Link  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="/Home/Privacy">FAQ</Link>
                                 </li>
                                 <li>
-                                    <a  className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' href="#">Blog</a>
+                                    <Link className='text-sm md:text-base font-poppins font-medium text-navbar hover:text-navbarhover' to="/Home/Blog">Blog</Link>
                                 </li>
 
                             </ul>

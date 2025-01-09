@@ -29,9 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route exact path="Home/Features"  element={<Features />}/>
         <Route exact path="Home/Portfolio"  element={<WorkPage />}/>
         <Route exact path="Home/Privacy"  element={<Privacy />}/>
-        <Route exact path="Home/WorkPage/ReadCase"  element={<ReadCase/>}/>
+        <Route exact path="/ReadCase"  element={<ReadCase/>}/>
         <Route exact path="Home/Blog"  element={<BlogPages/>}/>
-        <Route exact path="Home/Blog/ReadBlog"  element={<ReadBlog/>}/>
+        <Route exact path="/ReadBlog"  element={<ReadBlog/>}/>
       </Routes>
       <Footer/>
     </Router>

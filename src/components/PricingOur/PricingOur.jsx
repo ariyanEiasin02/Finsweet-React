@@ -3,7 +3,7 @@ import { MdPlayArrow } from "react-icons/md";
 const PricingOur = () => {
     return (
         <div>
-            <section className='md:py-24 py-12'>
+            <section className='md:py-20 py-12'>
                 <div className="max-w-container mx-auto">
                     <div className="flex justify-center">
                         <div className="text-center px-4 md:px-0">

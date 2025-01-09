@@ -10,11 +10,11 @@ const Focussed = () => {
                     <div className="md:flex justify-between">
                         <div className="md:w-2/4">
                             <h3 className='mt-2 font-poppins font-semibold text-[#282938] text-xl md:text-3xl'>Goal focussed</h3>
-                            <p className='md:mt-6 mt-4 font-poppins font-normal text-[#282938] md:text-base text-sm w-[85%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p className='md:mt-3 mt-2 font-poppins font-normal text-[#282938] md:text-base text-sm md:w-[85%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div className="md:w-2/4 mt-4 md:mt-0">
                             <h3 className='mt-2 font-poppins font-semibold text-[#282938] text-xl md:text-3xl'>Continuous improvement</h3>
-                            <p className='md:mt-6 mt-4 font-poppins font-normal text-[#282938] text-sm md:text-base w-[85%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+                            <p className='md:mt-3 mt-2 font-poppins font-normal text-[#282938] text-sm md:text-base md:w-[85%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                     </div>
                     </div>
                     <div className="">

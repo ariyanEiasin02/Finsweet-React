@@ -3,7 +3,7 @@ import portfolioOne from '../../assets/cover.png'
 const ReadDesign = () => {
   return (
     <div>
-        <section className='pt-24'>
+        <section className='pt-20'>
             <div className="max-w-container mx-auto">
                 <div className="px-20">
                     <span className='font-poppins font-medium text-[#282938] text-base'>Web design and development</span>

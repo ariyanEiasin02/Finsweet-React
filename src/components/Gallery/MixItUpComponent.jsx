@@ -37,7 +37,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 1</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">View Portfolio<span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">View Portfolio<span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 2</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">View Portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">View Portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 3</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">Read case study <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">Read case study <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 4</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 5</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const MixItUpComponent = () => {
                                 <h3 className='font-poppins text-[#282938] font-bold text-2xl md:text-3xl py-2'>Template 6</h3>
                                 <p className='mt-2 font-poppins text-[#282938] font-light text-sm md:text-base'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                                 <div className="mt-2">
-                                <Link className='rounded-full text-base font-poppins text-black duration-500' to="/workPage/readCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                <Link className='rounded-full text-base font-poppins text-black duration-500' to="/ReadCase">Read case study<span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>

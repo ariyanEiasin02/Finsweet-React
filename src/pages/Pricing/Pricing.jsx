@@ -4,7 +4,7 @@ import PricingOur from '../../components/PricingOur/PricingOur'
 
 const Pricing = () => {
   return (
-    <div className='pt-24'>
+    <div className='pt-12'>
         <PricingOur />
         <Frequently />
     </div>

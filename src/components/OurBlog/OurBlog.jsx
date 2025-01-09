@@ -23,7 +23,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const OurBlog = () => {
                                 <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
                                 <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                                 <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/blog/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                 </div>
                             </div>
                         </div>

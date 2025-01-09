@@ -3,7 +3,7 @@ import React from 'react'
 const Policy = () => {
     return (
         <div>
-            <section className='py-12 md:py-24'>
+            <section className='py-12 md:py-20'>
                 <div className="max-w-container mx-auto">
                     <div className="flex justify-center">
                         <div className="text-center px-4 md:px-0">

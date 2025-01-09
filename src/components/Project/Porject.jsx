@@ -27,7 +27,7 @@ const Porject = () => {
                                     <h2 className="font-poppins font-bold text-xl md:text-2xl text-white px-6">Workhub office Webflow Webflow Design</h2>
                                     <p className="mt-[10px] font-poppins text-[#BBBBCB] font-normal px-6 md:w-[90%] text-base">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
                                     <div className="px-6 mt-4">
-                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="/portfolio">View Project <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="Home/Portfolio">View Project <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Porject = () => {
                                <div className="mt-16">
                                     <h2 className="font-poppins font-bold text-2xl text-white px-6">Unisaas Website Design</h2>
                                     <div className="px-6 mt-4">
-                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="/portfolio">View portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="Home/Portfolio">View portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                     </div>
                                 </div>
                                 </div>
@@ -54,7 +54,7 @@ const Porject = () => {
                                <div className="mt-16">
                                     <h2 className="font-poppins font-bold text-2xl text-white px-6">Unisaas Website Design</h2>
                                     <div className="px-6 mt-4">
-                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="/portfolio">View portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
+                                    <Link className='text-[#ffd600] text-base font-poppins font-normal hover:underline' to="Home/Portfolio">View portfolio <span><FaLongArrowAltRight className='inline-block' /></span></Link>
                                     </div>
                                 </div>
                                 </div>
