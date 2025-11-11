@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    "excerpt": "See how pivoting to Webflow changed one person's sales strategy and allowed him to attract more clients.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog.png",
+    "author": "John Carter",
+    "date": "19 Jan 2022",
+    "category": "Business",
+    "slug": "webflow-user-growth-story",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "How to build a successful startup in 2024: Lessons from industry leaders",
+    "excerpt": "Discover the key strategies and insights from successful entrepreneurs who built thriving startups from scratch.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog01.png",
+    "author": "Sarah Johnson",
+    "date": "22 Jan 2022",
+    "category": "Startup",
+    "slug": "successful-startup-lessons-2024",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Design trends that will dominate 2024: What you need to know",
+    "excerpt": "Stay ahead of the curve with these emerging design trends that are reshaping the digital landscape.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog02.png",
+    "author": "Mike Davis",
+    "date": "25 Jan 2022",
+    "category": "Design",
+    "slug": "design-trends-2024",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 4,
+    "title": "The complete guide to React hooks and state management",
+    "excerpt": "Master React hooks and learn best practices for managing state in modern React applications.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog.png",
+    "author": "Emily Chen",
+    "date": "28 Jan 2022",
+    "category": "Development",
+    "slug": "react-hooks-state-management-guide",
+    "readTime": "10 min read"
+  },
+  {
+    "id": 5,
+    "title": "Building responsive websites with Tailwind CSS: A practical approach",
+    "excerpt": "Learn how to create beautiful, responsive websites efficiently using Tailwind CSS utility classes.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog01.png",
+    "author": "David Miller",
+    "date": "2 Feb 2022",
+    "category": "Development",
+    "slug": "responsive-websites-tailwind-css",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 6,
+    "title": "UX/UI best practices for e-commerce websites in 2024",
+    "excerpt": "Optimize your online store's user experience with these proven UX/UI strategies and design patterns.",
+    "content": "Full blog content goes here...",
+    "image": "/src/assets/blog02.png",
+    "author": "Lisa Anderson",
+    "date": "5 Feb 2022",
+    "category": "Design",
+    "slug": "ux-ui-ecommerce-best-practices",
+    "readTime": "9 min read"
+  }
+]
