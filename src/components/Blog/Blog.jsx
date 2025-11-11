@@ -10,7 +10,7 @@ const Blog = ({ limit = 3, showCategory = true, showAuthor = false }) => {
         <div>
             <section className='md:py-20 py-12 bg-gray-50'>
                 <div className="max-w-container mx-auto">
-                    <SectionTop />                    
+                    <SectionTop title={"Our Blog"} description={"Discover insights, tips, and stories from our team to elevate your business."} link={"/Home/Blog"} />
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-0">
                         {displayBlogs.map((blog) => (
                             <BlogCard 
