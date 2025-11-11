@@ -1,64 +1,87 @@
-import React, { useState } from 'react'
-import { Accordion, AccordionItem } from '@szhsin/react-accordion';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import React, { useState } from "react";
+import { FaChevronDown } from "react-icons/fa";
+
 const Frequently = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(null);
 
-    const faqItems = [
-        {
-            question: "What services do you offer?",
-            answer: "I specialize in front-end development using HTML, CSS, JavaScript, React, and modern CSS frameworks like Tailwind and Bootstrap."
-        },
-        {
-            question: "Do you provide responsive designs?",
-            answer: "Yes, I ensure all websites and applications are fully responsive and optimized for various screen sizes."
-        },
-        {
-            question: "Can you help with website optimization?",
-            answer: "Absolutely! I focus on performance optimization to deliver fast and efficient web solutions."
-        },
-        {
-            question: "How can I contact you?",
-            answer: "You can contact me via email or through the contact form available on my portfolio."
-        }
-    ];
-    return (
-        <div>
-            <section className='md:py-20 py-12'>
-                <div className="max-w-container mx-auto">
-                    <div className="md:flex justify-between px-4 md:px-0">
-                        <div className="md:w-2/5">
-                            <h2 className="font-poppins font-medium text-2xl md:text-4xl text-black">Frequently <br /> asked questions</h2>
-                            <p className="font-poppins text-[#4797ff] font-semibold text-base mt-2">Contact us for more info</p>
-                        </div>
-                        <div className="md:w-3/5 mt-6 md:mt-0">
-                            <div className="space-y-6">
-                                {faqItems.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        onClick={() => setActiveIndex(index === activeIndex ? null : index)}
-                                        className="bg-[#F4F4F9] shadow-md rounded-lg py-4 px-5 cursor-pointer hover:shadow-lg transition-shadow"
-                                    >
-                                        <div className="flex justify-between items-center">
-                                            <h3 className="font-poppins font-semibold text-[20px] text-gray-800">{item.question}</h3>
-                                            {index === activeIndex ? (
-                                                <FaChevronUp className="text-gray-600" />
-                                            ) : (
-                                                <FaChevronDown className="text-gray-600" />
-                                            )}
-                                        </div>
-                                        {index === activeIndex && (
-                                            <p className="font-poppins text-base font-normal mt-4 text-[#A9ACC6]">{item.answer}</p>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
+  const faqItems = [
+    {
+      question: "What services do you offer?",
+      answer:
+        "I specialize in front-end development using React, Tailwind CSS, JavaScript, and UI/UX focused responsive design.",
+    },
+    {
+      question: "Do you provide responsive designs?",
+      answer:
+        "Yes, all websites and applications I design are fully responsive and optimized for all screen sizes.",
+    },
+    {
+      question: "Can you help with website optimization?",
+      answer:
+        "Absolutely. I work on improving loading speed, reducing bundle size, and refining UI performance.",
+    },
+    {
+      question: "How can I contact you?",
+      answer:
+        "You can contact me via email or through the contact form available on my portfolio website.",
+    },
+  ];
+
+  const toggleFAQ = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
+  };
+
+  return (
+    <section className="py-16 md:py-24 bg-white">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="md:flex md:space-x-6">
+          
+          {/* Left section */}
+          <div className="md:w-1/3 text-center md:text-left">
+            <h2 className="text-xl md:text-3xl font-semibold text-[#1C1E53] leading-tight">
+              Frequently Ask Questions
+            </h2>
+            <p className="text-[#3B5BFF] font-medium mt-3">Contact us for more info</p>
+          </div>
+
+          {/* Right section */}
+          <div className="md:w-2/3 mt-10 md:mt-0 space-y-5">
+
+            {faqItems.map((item, index) => (
+              <div
+                key={index}
+                className="border border-[#E4E6EE] rounded-[8px] p-4 cursor-pointer transition-all duration-300 hover:shadow-md"
+                onClick={() => toggleFAQ(index)}
+              >
+                <div className="flex justify-between items-center">
+                  <h3 className="text-[16px] md:text-[18px] font-semibold text-[#1C1E53]">
+                    {item.question}
+                  </h3>
+
+                  <FaChevronDown
+                    className={`text-gray-600 transition-transform duration-300 ${
+                      activeIndex === index ? "rotate-180" : ""
+                    }`}
+                  />
                 </div>
-            </section>
-        </div>
-    )
-}
 
-export default Frequently
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    activeIndex === index ? "max-h-40 mt-3" : "max-h-0"
+                  }`}
+                >
+                  <p classname="text-[#6B7280] leading-relaxed">
+                    {item.answer}
+                  </p>
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Frequently;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SectionTop = () => {
   return (
@@ -13,9 +14,11 @@ const SectionTop = () => {
           </p>
         </div>
         <div className="mt-4 md:mt-0">
-          <button className="bg-[#1C1E53] text-white font-medium py-3 px-6 rounded-lg transition duration-300">
-            View All
-          </button>
+          <Link to="/Home/Blog">
+            <button className="bg-[#1C1E53] text-white font-medium py-3 px-6 rounded-lg transition duration-300">
+              View All
+            </button>
+          </Link>
         </div>
       </div>
     </div>
