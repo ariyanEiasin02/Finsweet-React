@@ -27,10 +27,10 @@ const Footer = () => {
                                 <h2 className='font-poppins font-medium text-2xl md:text-4xl text-white'>Lets Talk!</h2>
                                 <p className='font-poppins text-[#d2d2dd] font-normal text-base md:w-[70%] mt-4'>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
                                 <div className="mt-6">
-                                    <a href="#"><FaFacebook className='inline-block text-white text-2xl' /></a>
-                                    <a className='pl-6' href="#"><FaTwitter className='inline-block text-white text-2xl' /></a>
-                                    <a className='pl-6' href="#"><FaInstagram className='inline-block text-white text-2xl' /></a>
-                                    <a className='pl-6' href="#"><FaLinkedin className='inline-block text-white text-2xl' /></a>
+                                    <Link target='_blank' to="https://www.facebook.com/"><FaFacebook className='inline-block text-white text-2xl' /></Link>
+                                    <Link target='_blank' className='pl-6' to="https://www.twitter.com/"><FaTwitter className='inline-block text-white text-2xl' /></Link>
+                                    <Link target='_blank' className='pl-6' to="https://www.instagram.com/"><FaInstagram className='inline-block text-white text-2xl' /></Link>
+                                    <Link target='_blank' className='pl-6' to="https://www.linkedin.com/"><FaLinkedin className='inline-block text-white text-2xl' /></Link>
                                 </div>
                             </div>
                         </div>
