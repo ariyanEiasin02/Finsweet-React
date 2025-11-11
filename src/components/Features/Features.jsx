@@ -1,54 +1,76 @@
-import React from 'react'
+import React from "react";
 import { HiUserGroup } from "react-icons/hi2";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaPenRuler } from "react-icons/fa6";
-import { TbMessageCircleQuestion } from "react-icons/tb"
-import { MdTimer,MdEditDocument } from "react-icons/md";
-const Features = () => {
-  return (
-    <div>
-        <section className='md:py-20 py-12 bg-[#F4F6FC]'>
-            <div className="max-w-container mx-auto">
-                <div className="text-center">
-                    <span className='font-poppins text-pink-500 text-xl font-semibold'>Features</span>
-                    <h2 className='mt-2 font-poppins text-xl md:text-3xl font-bold md:w-[45%] w-[90%] mx-auto'>Design that solves problems, one product at a time</h2>
-                </div>
-                <div className="flex flex-wrap gap-y-6 px-4 md:px-0 justify-between mt-12">
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><HiUserGroup className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>Uses Client First</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><FaCheckCircle className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>Two Free Revision Round</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><FaPenRuler className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>Template Customization</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><TbMessageCircleQuestion className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>24/7 Support</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><MdTimer className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>Quick Delivery</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                    <div className="md:w-[32%] bg-white rounded-xl py-8 px-6">
-                        <span><MdEditDocument  className='text-4xl text-[#2405F2]' /></span>
-                        <h4 className='font-poppins text-2xl text-black font-meduim mt-4'>Hands-on approach</h4>
-                        <p className='mt-2 font-poppins text-base text-[#282938] font-normal'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-  )
-}
+import { TbMessageCircleQuestion } from "react-icons/tb";
+import { MdTimer, MdEditDocument } from "react-icons/md";
 
-export default Features
+const Features = () => {
+  const features = [
+    {
+      icon: <HiUserGroup />,
+      title: "Uses Client First",
+      desc: "I follow the Client-First class naming system to ensure a clean and scalable structure.",
+    },
+    {
+      icon: <FaCheckCircle />,
+      title: "Two Free Revisions",
+      desc: "Every project includes revision rounds to refine your UI until it’s perfect.",
+    },
+    {
+      icon: <FaPenRuler />,
+      title: "Template Customization",
+      desc: "I customize templates to match brand identity and provide a unique user experience.",
+    },
+    {
+      icon: <TbMessageCircleQuestion />,
+      title: "24/7 Support",
+      desc: "I am available anytime for project discussions, updates, or clarifications.",
+    },
+    {
+      icon: <MdTimer />,
+      title: "Quick Delivery",
+      desc: "I maintain fast turnaround times while ensuring high quality standards.",
+    },
+    {
+      icon: <MdEditDocument />,
+      title: "Hands-On Approach",
+      desc: "I work closely with clients in the design & revision process for the best outcome.",
+    },
+  ];
+
+  return (
+    <section className="py-16 md:py-24 bg-[#F4F6FC]">
+      <div className="max-w-6xl mx-auto px-4">
+
+        {/* Section Heading */}
+        <div className="">
+          <h2 className="font-medium text-[#1C1E53] text-4xl">
+            Features Design
+          </h2>
+        </div>
+
+        {/* Feature Grid */}
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mt-12">
+          {features.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white cursor-pointer rounded-[12px] p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+            >
+              <div className="text-4xl text-[#3B5BFF] mb-3">
+                {item.icon}
+              </div>
+              <h4 className="text-xl font-semibold text-[#1C1E53]">{item.title}</h4>
+              <p className="mt-3 text-[#6B7280] leading-relaxed text-sm font-normal">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Features;
