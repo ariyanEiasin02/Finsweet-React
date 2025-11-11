@@ -1,45 +1,25 @@
-import React from 'react'
-import blog from '../../assets/blog.png'
-import blogOne from '../../assets/blog01.png'
-import blogTwo from '../../assets/blog02.png'
-import { FaLongArrowAltRight } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-const Blog = () => {
+﻿import React from 'react'
+import BlogCard from '../BlogCard/BlogCard'
+import blogData from '../../data/blogData.json'
+import SectionTop from './SectionTop'
+
+const Blog = ({ limit = 3, showCategory = true, showAuthor = false }) => {
+    const displayBlogs = limit ? blogData.slice(0, limit) : blogData
+
     return (
         <div>
-            <section className='md:py-20 py-12'>
+            <section className='md:py-20 py-12 bg-gray-50'>
                 <div className="max-w-container mx-auto">
-                    <div className="px-4 md:px-0">
-                        <h2 className='font-poppins font-medium text-3xl text-black'>Our blog</h2>
-                    </div>
-                    <div className="md:flex justify-between px-4 md:px-0">
-                        <div className="md:w-[32%] border border-[#D2D2D2] mt-8 rounded-lg">
-                            <img className='' src={blog} alt="" />
-                            <div className="px-4 py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                            </div>
-                        </div>
-                        <div className="md:w-[32%] border border-[#D2D2D2] mt-8 rounded-lg">
-                            <img className='' src={blogOne} alt="" />
-                            <div className="px-4 py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                            </div>
-                        </div>
-                        <div className="md:w-[32%] border border-[#D2D2D2] mt-8 rounded-lg">
-                            <img className='' src={blogTwo} alt="" />
-                            <div className="px-4 py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-2">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <Link className="font-poppins text-black text-lg font-medium mt-4 hover:text-[#E83E8C]" to="Home/Blog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                            </div>
-                        </div>
+                    <SectionTop title={"Our Blog"} description={"Discover insights, tips, and stories from our team to elevate your business."} link={"/Home/Blog"} />
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-0">
+                        {displayBlogs.map((blog) => (
+                            <BlogCard 
+                                key={blog.id} 
+                                blog={blog} 
+                                showCategory={showCategory}
+                                showAuthor={showAuthor}
+                            />
+                        ))}
                     </div>
                 </div>
             </section>

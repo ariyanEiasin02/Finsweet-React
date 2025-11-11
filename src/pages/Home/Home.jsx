@@ -11,14 +11,14 @@ import Blog from '../../components/Blog/Blog'
 const Home = () => {
   return (
     <div active="Home" className='md:py-0 pt-16'>
-        <Banner></Banner>
-        <Work></Work>
-        <Porject></Porject>
-        <Features></Features>
-        <Clients></Clients>
-        <Frequently></Frequently>
-        <Websites></Websites>
-        <Blog></Blog>
+        <Banner/>
+        <Work/>
+        <Porject/>
+        <Features/>
+        <Clients/>
+        <Frequently/>
+        <Websites/>
+        <Blog/>
     </div>
   )
 }

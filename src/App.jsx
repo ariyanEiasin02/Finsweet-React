@@ -13,16 +13,16 @@ import Work from "./components/Work/Work"
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <Work></Work>
-    <Porject></Porject>
-    <Features></Features>
-    <Clients></Clients>
-    <Frequently></Frequently>
-    <Websites></Websites>
-    <Blog></Blog>
-    <Footer></Footer>
+    <Navbar/>
+    <Banner/>
+    <Work/>
+    <Porject/>
+    <Features/>
+    <Clients/>
+    <Frequently/>
+    <Websites/>
+    <Blog/>
+    <Footer/>
     </>
   )
 }

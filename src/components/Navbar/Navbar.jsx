@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     return (
         <div>
-            <nav className='bg-navbar py-6 z-50 fixed w-full top-0 left-0'>
+            <nav className='bg-navbar shadow-xl py-6 z-50 fixed w-full top-0 left-0'>
                 <div className="max-w-container mx-auto">
                     <div className="flex items-center px-4 md:px-0 justify-between">
                         <div className="">
@@ -36,9 +36,6 @@ const Navbar = () => {
                                 </li>
                                 <li className='mt-2 md:mt-0'>
                                     <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Pricing">Pricing</Link>
-                                </li>
-                                <li className='mt-2 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Privacy">FAQ</Link>
                                 </li>
                                 <li className='mt-2 md:mt-0'>
                                     <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Blog">Blog</Link>

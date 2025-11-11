@@ -1,88 +1,37 @@
 import React from 'react'
-import { FaLongArrowAltRight } from 'react-icons/fa'
-import blog from '../../assets/blog03.png'
-import blogOne from '../../assets/blog01.png'
-import blogTwo from '../../assets/blog02.png'
-import blogThree from '../../assets/blog06.png'
-import blogFour from '../../assets/blog04.png'
-import blogFive from '../../assets/blog05.png'
-import { Link } from 'react-router-dom'
-const OurBlog = () => {
+import BlogCard from '../BlogCard/BlogCard'
+import blogData from '../../data/blogData.json'
+
+const OurBlog = ({ limit = null, showCategory = true, showAuthor = true }) => {
+    const displayBlogs = limit ? blogData.slice(0, limit) : blogData
+
     return (
         <div>
-            <section className='pb-12'>
+            <section className='py-16 md:py-24'>
                 <div className="max-w-container mx-auto">
-                    <div className="px-4 md:px-0">
-                        <h2 className='text-center font-poppins font-medium text-3xl text-black'>Our blog</h2>
+                    <div className="px-4 md:px-0 mb-16">
+                        <h2 className='text-center font-poppins font-semibold text-3xl md:text-5xl text-black mb-4'>Our Blog</h2>
+                        <p className='text-center font-poppins text-gray-500 text-lg max-w-2xl mx-auto'>
+                            Stay updated with our latest insights, tutorials, and industry news
+                        </p>
                     </div>
-                    <div className="md:flex flex-wrap mt-6 justify-between gap-x-8 px-4 md:px-0">
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blog} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blogTwo} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blogThree} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blogFour} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blogFive} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="md:w-[30%] mt-8 rounded-lg">
-                            <img className='' src={blogOne} alt="amiiii" />
-                            <div className="py-6">
-                                <span className="font-poppins text-black text-sm mt-2">19 Jan 2022</span>
-                                <h3 className="font-poppins font-medium text-black text-2xl md:text-3xl mt-2">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-                                <p className="font-poppins text-black text-base font-light mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                                <div className="mt-6">
-                                    <Link className="font-poppins text-black text-lg font-medium mt-8 hover:text-[#E83E8C]" to="/ReadBlog">Read More <span><FaLongArrowAltRight className='inline-block' /></span></Link>
-                                </div>
-                            </div>
-                        </div>
+                   
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-0">
+                        {displayBlogs.map((blog) => (
+                            <BlogCard 
+                                key={blog.id} 
+                                blog={blog} 
+                                showCategory={showCategory}
+                                showAuthor={showAuthor}
+                            />
+                        ))}
                     </div>
+
+                    {displayBlogs.length === 0 && (
+                        <div className="text-center py-12">
+                            <p className="text-gray-500 font-poppins text-lg">No blog posts available at the moment.</p>
+                        </div>
+                    )}
                 </div>
             </section>
         </div>
