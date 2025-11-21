@@ -33,7 +33,7 @@ const Frequently = () => {
 
   return (
     <section className="py-16 md:py-24 bg-white">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-container mx-auto">
         <div className="md:flex md:space-x-6">
           
           {/* Left section */}

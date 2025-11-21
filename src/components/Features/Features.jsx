@@ -41,7 +41,7 @@ const Features = () => {
 
   return (
     <section className="py-16 md:py-24 bg-[#F4F6FC]">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-container mx-auto">
 
         {/* Section Heading */}
         <div className="">
@@ -51,7 +51,7 @@ const Features = () => {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mt-12">
+        <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-6 mt-12">
           {features.map((item, index) => (
             <div
               key={index}
