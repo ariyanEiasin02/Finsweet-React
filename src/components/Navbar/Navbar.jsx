@@ -29,19 +29,19 @@ const Navbar = () => {
                                 <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="/">Home</Link>
                                 </li>
                                 <li className='mt-2 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/About">About us</Link>
+                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="/About">About us</Link>
                                 </li>
                                 <li className='mt-2 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Features">Features</Link>
+                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="/Features">Features</Link>
                                 </li>
                                 <li className='mt-2 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Pricing">Pricing</Link>
+                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="/Pricing">Pricing</Link>
                                 </li>
                                 <li className='mt-2 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="Home/Blog">Blog</Link>
+                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins font-medium hover:text-navbarhover`} to="/Blog">Blog</Link>
                                 </li>
                                 <li className='mt-6 md:mt-0'>
-                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins border-2 border-navbarhover py-2 px-8 rounded-full font-medium hover:bg-red-500 hover:border-red-500`} to="Home/contact">Contact us</Link>
+                                    <Link className={`${show ? "text-[#333]" : "text-white"} text-base font-poppins border-2 border-navbarhover py-2 px-8 rounded-full font-medium hover:bg-red-500 hover:border-red-500`} to="/contact">Contact us</Link>
                                 </li>
                             </ul>
                         </div>
