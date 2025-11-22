@@ -33,7 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route exact path="/Privacy"  element={<Privacy />}/>
         <Route exact path="/ReadCase"  element={<ReadCase/>}/>
         <Route exact path="/Blog"  element={<BlogPages/>}/>
-        <Route exact path="/ReadBlog"  element={<ReadBlog/>}/>
+        <Route exact path="/Blog/:slug"  element={<ReadBlog/>}/>
       </Routes>
       <Footer/>
     </Router>
